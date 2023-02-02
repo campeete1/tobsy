@@ -1,0 +1,144 @@
+*{
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.photo-reel-float-l {
+    display: inline-flex;
+    gap: 140px;
+    margin-top: 115px;
+}
+.text-photo-reel-l {
+    flex-basis: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: end;
+}
+.img-photo-reel > img:nth-child(1) {
+    max-width: 300pt;
+}
+.photo-reel-float-r {
+    display: inline-flex;
+    gap: 140px;
+    margin-top: 115px;
+}
+.text-photo-reel-r {
+    flex-basis: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: start;
+}
+button{
+    border: 2px solid orange;
+    border-radius: 25px;
+    padding: 10px 30px;
+    background-color: transparent;
+    font-size: 14px;
+}
+button:hover{
+    background-color: orange;
+}
+.arrow-btn{
+    display: grid;
+}
+.arrow img{
+    max-width: 50%;
+    margin-top: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+    background: center;
+}
+.arrow-btn {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.secondary-btn{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-flex;
+    gap: 15px;
+    justify-self: center;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+}
+.btn{
+    display: grid;
+    justify-content: center;
+}
+.arrow{
+    fill: white;
+    background: center;
+}
+.ily-container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    margin-top: 25vh;
+    justify-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.ily-container h1 {
+    font-size: 80px;
+}
+.ily-container h1 em span{
+    color: #FF6F08;
+}
+.logo{
+    max-width: 125px;
+    margin-top: 15px;
+}
+.tc-img{
+    max-width: 275px;
+}
+.paragraph p em{
+    color: #FF6F08;
+    font-size: 25px;
+}
+.paragraph-container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    gap: 75px;
+}
+.paragraph-btn{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: end;
+    margin-top: -75px;
+    margin-bottom: 25px;

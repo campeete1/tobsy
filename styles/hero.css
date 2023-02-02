@@ -1,0 +1,42 @@
+.text h1{
+    font-size: 200px;
+}
+.text > h1:nth-child(1) {
+    margin-top: -25px;
+    margin-bottom: 0px;
+    display: center;
+    background: center;
+}
+.text > h1:nth-child(2) {
+    background: center;
+    margin-top: -55px;
+    margin-bottom: 0px;
+}
+.text > h1:nth-child(3) {
+    margin-top: -55px;
+    margin-bottom: 0px;
+    background: center;
+}
+.text {
+    margin-top: 0px;
+    text-align: end;
+}
+.text h1{
+    color: #FF6F08;
+}
+.text h1 em{
+    color: #FF6F08;
+}
+
+.third-btn{
+    display: inline-flex;
+    gap: 15px;
+    justify-self: center;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+}
+.btn{
+    display: grid;
+    justify-content: end;
+}

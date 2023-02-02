@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="317" height="716" viewBox="0 0 317 716">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff6f08;
+      }
+
+      .cls-1, .cls-3 {
+        font-size: 158px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: Helvetica-BoldOblique, Helvetica;
+        font-weight: 700;
+        font-style: oblique;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 159px;
+      }
+
+      .cls-3 {
+        fill: #c7a7d6;
+      }
+    </style>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(390 -49) rotate(90)">
+    <text id="TOBY" class="cls-1" transform="translate(268 195)"><tspan x="-218.06" y="0">TOBY</tspan></text>
+    <text id="_" data-name="+" class="cls-2" transform="translate(623 195)"><tspan x="-46.427" y="0">+</tspan></text>
+    <text id="CAMMY" class="cls-3" transform="translate(443 354)"><tspan x="-298.41" y="0">CAMMY</tspan></text>
+  </g>
+</svg>
