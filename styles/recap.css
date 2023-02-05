@@ -1,0 +1,113 @@
+*{
+    background-color: #1d1d1d;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.tc-img{
+    max-width: 275px;
+}
+.paragraph p em{
+    color: #FF6F08;
+    font-size: 25px;
+}
+.paragraph-container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    gap: 75px;
+}
+.text h1{
+    font-size: 200px;
+}
+.text > h1:nth-child(1) {
+    margin-top: -25px;
+    margin-bottom: 0px;
+    display: center;
+    background: center;
+}
+.text > h1:nth-child(2) {
+    background: center;
+    margin-top: -55px;
+    margin-bottom: 0px;
+}
+.text > h1:nth-child(3) {
+    margin-top: -55px;
+    margin-bottom: 0px;
+    background: center;
+}
+.text {
+    margin-top: 0px;
+    text-align: end;
+}
+.text h1{
+    color: #FF6F08;
+}
+.text h1 em{
+    color: #FF6F08;
+}
+.photo-reel-float-l {
+    display: inline-flex;
+    gap: 140px;
+    margin-top: 115px;
+}
+.text-photo-reel-l {
+    flex-basis: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: end;
+}
+.img-photo-reel > img:nth-child(1) {
+    max-width: 300pt;
+}
+.photo-reel-float-r {
+    display: inline-flex;
+    gap: 140px;
+    margin-top: 115px;
+}
+.text-photo-reel-r {
+    flex-basis: 50%;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: start;
+}
+.ily-container{
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.ily-container h1 {
+    font-size: 80px;
+}
+.ily-container h1 em span{
+    color: #FF6F08;
+}
